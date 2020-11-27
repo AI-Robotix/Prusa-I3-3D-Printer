@@ -621,7 +621,6 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 // Normally-closed switches are advised and are the default.
 //
 
-//
 // The Z_MIN_PROBE_PIN sets the Arduino pin to use. (See your board's pins file.)
 // Since the RAMPS Aux4->D32 pin maps directly to the Arduino D32 pin, D32 is the
 // default pin for all RAMPS-based boards. Most boards use the X_MAX_PIN by default.
@@ -633,7 +632,6 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 //
 //#define Z_MIN_PROBE_PIN X_MAX_PIN
 
-//
 // Enable Z_MIN_PROBE_ENDSTOP to use _both_ a Z Probe and a Z-min-endstop on the same machine.
 // With this option the Z_MIN_PROBE_PIN will only be used for probing, never for homing.
 //
